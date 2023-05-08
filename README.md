@@ -24,7 +24,9 @@ Dummy variables are qualitative variables or discrete variables that represent c
 
 - [Inter Quartile Range](https://www.kaggle.com/code/themrityunjaypathak/removing-outlier-from-data-using-iqr)
 
-IQR is used to measure variability by dividing a data set into quartiles. The data is sorted in ascending order and split into 4 equal parts. Q1, Q2, Q3 called first, second and third quartiles are the values which separate the 4 equal parts.
+IQR is used to measure variability by dividing a data set into quartiles.
+
+The data is sorted in ascending order and split into 4 equal parts. Q1, Q2, Q3 called first, second and third quartiles are the values which separate the 4 equal parts.
 
 - Q1 represents the 25th percentile of the data.
 - Q2 represents the 50th percentile of the data.
@@ -36,7 +38,9 @@ The data points which fall below Q1 – 1.5 IQR or above Q3 + 1.5 IQR are outlie
 
 - [Z-Score](https://www.kaggle.com/code/themrityunjaypathak/removing-outlier-from-data-using-zscore)
 
-Z-score is a statistical measurement that describes a value's relationship to the mean of a group of values. Z-score is measured in terms of standard deviations from the mean. 
+Z-score is a statistical measurement that describes a value's relationship to the mean of a group of values.
+
+Z-score is measured in terms of standard deviations from the mean. 
 
 - If a Z-score is 0, it indicates that the data point's score is identical to the mean score.
 - A Z-score of 1.0 would indicate a value that is one standard deviation from the mean.

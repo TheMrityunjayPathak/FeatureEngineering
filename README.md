@@ -20,3 +20,11 @@ The steps of feature engineering may vary as per different data scientists and M
 - **Exploratory Analysis:** Exploratory analysis or Exploratory data analysis (EDA) is an important step of features engineering, which is mainly used by data scientists. This step involves analysis, investing data set, and summarization of the main characteristics of data. Different data visualization techniques are used to better understand the manipulation of data sources, to find the most appropriate statistical technique for data analysis, and to select the best features for the data.
 
 - **Benchmark:** Benchmarking is a process of setting a standard baseline for accuracy to compare all the variables from this baseline. The benchmarking process is used to improve the predictability of the model and reduce the error rate.
+
+👉 **Topics Covered in Repository**
+
+- [Dummy Variable](https://www.kaggle.com/code/themrityunjaypathak/dummy-variable)
+- [Inter Quartile Range](https://www.kaggle.com/code/themrityunjaypathak/removing-outlier-from-data-using-iqr)
+- [Z-Score](https://www.kaggle.com/code/themrityunjaypathak/removing-outlier-from-data-using-zscore)
+- [Modified Z-Score](https://www.kaggle.com/code/themrityunjaypathak/removing-outlier-from-data-using-modified-zscore)
+- [Data Standardization](https://www.kaggle.com/code/themrityunjaypathak/data-standardization)

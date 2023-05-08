@@ -50,10 +50,10 @@ Z-score is measured in terms of standard deviations from the mean.
 
 A modified z-score is more robust because it uses the median to calculate z-scores as opposed to the mean, which is known to be influenced by outliers. 
 
-Values with modified z-scores less than -3.5 or greater than 3.5 be labeled as potential outliers.
+- Values with modified z-scores less than -3.5 or greater than 3.5 be labeled as potential outliers.
 
 - [Data Standardization](https://www.kaggle.com/code/themrityunjaypathak/data-standardization)
 
 Data standardization is the process of converting data to a common format to enable users to process and analyze it.
 
-Features will be rescaled to ensure the mean and the standard deviation to be 0 and 1, respectively.
+- Features will be rescaled to ensure the mean and the standard deviation to be 0 and 1, respectively.

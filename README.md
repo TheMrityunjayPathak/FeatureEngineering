@@ -26,4 +26,4 @@
 
 4️⃣ [Modified Z-Score](https://www.kaggle.com/code/themrityunjaypathak/removing-outlier-from-data-using-modified-zscore)🔧
 
-5️⃣ [Data Standardization]()🌐
+5️⃣ [Data Standardization](https://www.kaggle.com/code/themrityunjaypathak/data-standardization)🌐

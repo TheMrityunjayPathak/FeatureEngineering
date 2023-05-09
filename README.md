@@ -18,42 +18,12 @@
 
 👉 **Topics Covered in Repository**
 
-1️⃣ [Dummy Variable](https://www.kaggle.com/code/themrityunjaypathak/dummy-variable)
+1️⃣ [Dummy Variable](https://www.kaggle.com/code/themrityunjaypathak/dummy-variable)🧑‍🤝‍🧑
 
-Dummy variables are qualitative variables or discrete variables that represent categorical data and can take the values as 0 or 1 to indicate the absence or presence of a specified attribute respectively.
+2️⃣ [Inter Quartile Range](https://www.kaggle.com/code/themrityunjaypathak/removing-outlier-from-data-using-iqr)🪬
 
-2️⃣ [Inter Quartile Range](https://www.kaggle.com/code/themrityunjaypathak/removing-outlier-from-data-using-iqr)
+3️⃣ [Z-Score](https://www.kaggle.com/code/themrityunjaypathak/removing-outlier-from-data-using-zscore)💤
 
-IQR is used to measure variability by dividing a data set into quartiles.
+4️⃣ [Modified Z-Score](https://www.kaggle.com/code/themrityunjaypathak/removing-outlier-from-data-using-modified-zscore)🔧
 
-The data is sorted in ascending order and split into 4 equal parts. Q1, Q2, Q3 called first, second and third quartiles are the values which separate the 4 equal parts.
-
-- Q1 represents the 25th percentile of the data.
-- Q2 represents the 50th percentile of the data.
-- Q3 represents the 75th percentile of the data.
-
-IQR is the range between the first and the third quartiles namely Q1 and Q3 : IQR = Q3 – Q1. 
-
-The data points which fall below Q1 – 1.5 IQR or above Q3 + 1.5 IQR are outliers.
-
-3️⃣ [Z-Score](https://www.kaggle.com/code/themrityunjaypathak/removing-outlier-from-data-using-zscore)
-
-Z-score is a statistical measurement that describes a value's relationship to the mean of a group of values.
-
-Z-score is measured in terms of standard deviations from the mean. 
-
-- If a Z-score is 0, it indicates that the data point's score is identical to the mean score.
-- A Z-score of 1.0 would indicate a value that is one standard deviation from the mean.
-- Z-scores may be positive or negative, with a positive value indicating the score is above the mean and a negative score indicating it is below the mean.
-
-4️⃣ [Modified Z-Score](https://www.kaggle.com/code/themrityunjaypathak/removing-outlier-from-data-using-modified-zscore)
-
-A modified z-score is more robust because it uses the median to calculate z-scores as opposed to the mean, which is known to be influenced by outliers. 
-
-- Values with modified z-scores less than -3.5 or greater than 3.5 be labeled as potential outliers.
-
-5️⃣ [Data Standardization](https://www.kaggle.com/code/themrityunjaypathak/data-standardization)
-
-Data standardization is the process of converting data to a common format to enable users to process and analyze it.
-
-- Features will be rescaled to ensure the mean and the standard deviation to be 0 and 1, respectively.
+5️⃣ [Data Standardization]()🌐

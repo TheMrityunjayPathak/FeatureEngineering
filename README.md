@@ -56,7 +56,7 @@
 
 **Z-Score = ( x - μ ) / σ**
 
-where:
+where :
 
 - z = Z-score
 - x = the value being evaluated
@@ -71,11 +71,11 @@ where:
 
 **Modified Z-Score = 0.6745(xi – x̃) / MAD**
 
-where:
+where :
 
-- xi: A single data value
-- x̃: The median of the dataset
-- MAD: The median absolute deviation of the dataset
+- xi = A single data value
+- x̃ = The median of the dataset
+- MAD = The median absolute deviation of the dataset
 
 - Value's with Modified Z-Scores less than -3.5 or greater than 3.5 be labeled as potential outliers.
 

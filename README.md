@@ -18,6 +18,17 @@
 
 - Data scientists spend most of their time with data, and it becomes important to make models accurate.
 
+----------------------------
+
+## Getting Started
+
+- Clone the repository to your local machine using the following command :
+```
+git clone https://github.com/TheMrityunjayPathak/DataScience.git
+```
+
+--------------------------------
+
 📍 **Different Feature Engineering Techniques**
 
 1️⃣ [Dummy Variable](https://www.kaggle.com/code/themrityunjaypathak/dummy-variable) 🧑‍🤝‍🧑

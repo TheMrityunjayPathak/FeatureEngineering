@@ -24,6 +24,8 @@
 
 - Dummy variables are qualitative variables or discrete variables that represent categorical data and can take the values as 0 or 1 to indicate the absence or presence of a specified attribute respectively.
 
+![63cda1d9d67b5c106d43a2f0_kfDrBGZ1XvwQORx1KGRacGydm0t_nhss31SuHU7_WqZc3EZG1WrWH2ewTUhKUdVIHEmIaYcmWKXKjcoasge068loTZQEFe3YBmMQ-1ZfnqTxPUkymvQ3VutjR9D4iGl8phTEohrsB2dChJJDmHvBBagNuVG7THRT0PiExr0cDbZIRQs3x0LUtri-3bO2Iw](https://github.com/TheMrityunjayPathak/FeatureEngineering/assets/123563634/f8260e2f-55a2-42f3-be8a-1e1807eb9625)
+
 2️⃣ [Inter Quartile Range](https://www.kaggle.com/code/themrityunjaypathak/removing-outlier-from-data-using-iqr) 🪬
 
 - In Descriptive Statistics, the Interquartile Range tells you the spread of the middle half of your distribution.
@@ -39,6 +41,8 @@
 - Q1 = 1st quartile or 25th percentile
 
 - Q1 is the value below which 25 percent of the distribution lies, while Q3 is the value below which 75 percent of the distribution lies.
+
+![New Project](https://github.com/TheMrityunjayPathak/FeatureEngineering/assets/123563634/20548ba7-4d26-4b88-965b-4af40e9a5ab6)
 
 3️⃣ [Z-Score](https://www.kaggle.com/code/themrityunjaypathak/removing-outlier-from-data-using-zscore) 💤
 
@@ -59,6 +63,8 @@ where :
 - μ = the mean
 - σ = the standard deviation
 
+![images](https://github.com/TheMrityunjayPathak/FeatureEngineering/assets/123563634/41b2cc4e-dfa9-4cfd-a950-b59c3b3e612f)
+
 4️⃣ [Modified Z-Score](https://www.kaggle.com/code/themrityunjaypathak/removing-outlier-from-data-using-modified-zscore) 🔧
 
 - A Modified Z-Score is more robust because it uses the median to calculate z-scores as opposed to the mean, which is known to be influenced by outliers.
@@ -73,14 +79,20 @@ where :
 
 - Value's with Modified Z-Scores less than -3.5 or greater than 3.5 be labeled as potential outliers.
 
+![download](https://github.com/TheMrityunjayPathak/FeatureEngineering/assets/123563634/c877fa09-b571-4a15-8e3f-16c08b728e2e)
+
 5️⃣ [Data Standardization](https://www.kaggle.com/code/themrityunjaypathak/data-standardization) 🌐
 
 - Standardization is a scaling method where the values are centered around the mean with a unit standard deviation.
 
 - This means that the mean of the attribute becomes zero, and the resultant distribution has standard deviation equal to 1.
 
+![1_HW7-kYjj6RKwrO-5WTLkDA](https://github.com/TheMrityunjayPathak/FeatureEngineering/assets/123563634/98fff578-e63b-43b1-ad77-508c2aec8f35)
+
 6️⃣ [Handling Imbalance Dataset](https://www.kaggle.com/code/themrityunjaypathak/handling-imbalance-dataset) ⚖️
 
 - Imbalanced data refers to those types of datasets where the target class has an uneven distribution of observations.
 
 - In an Imbalance Data one class label has a very high number of observations and the other has a very low number of observations.
+
+![0_FeIp1t4uEcW5LmSM](https://github.com/TheMrityunjayPathak/FeatureEngineering/assets/123563634/7c226979-5f95-4371-9e67-53e619097837)

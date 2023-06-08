@@ -24,7 +24,7 @@
 
 - Clone the repository to your local machine using the following command :
 ```
-git clone https://github.com/TheMrityunjayPathak/DataScience.git
+git clone https://github.com/TheMrityunjayPathak/FeatureEngineering.git
 ```
 
 --------------------------------

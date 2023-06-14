@@ -1,4 +1,4 @@
-❓ **What is Feature Engineering?**
+## Feature Engineering
 
 - Feature engineering is a machine learning technique that leverages data to create new variables that aren’t in the training set.
 
@@ -8,7 +8,7 @@
 
 - Regardless of the data or architecture, a terrible feature will have a direct impact on your model.
 
-🎯 **Importance of Feature Engineering**
+## Importance of Feature Engineering
 
 - Feature Engineering is a very important step in machine learning.
 
@@ -18,8 +18,6 @@
 
 - Data scientists spend most of their time with data, and it becomes important to make models accurate.
 
-----------------------------
-
 ## Getting Started
 
 - Clone the repository to your local machine using the following command :
@@ -27,17 +25,15 @@
 git clone https://github.com/TheMrityunjayPathak/FeatureEngineering.git
 ```
 
---------------------------------
+## Different Feature Engineering Techniques
 
-📍 **Different Feature Engineering Techniques**
-
-1️⃣ [Dummy Variable](https://www.kaggle.com/code/themrityunjaypathak/dummy-variable) 🧑‍🤝‍🧑
+[Dummy Variable](https://www.kaggle.com/code/themrityunjaypathak/dummy-variable)
 
 - Dummy variables are qualitative variables or discrete variables that represent categorical data and can take the values as 0 or 1 to indicate the absence or presence of a specified attribute respectively.
 
 ![63cda1d9d67b5c106d43a2f0_kfDrBGZ1XvwQORx1KGRacGydm0t_nhss31SuHU7_WqZc3EZG1WrWH2ewTUhKUdVIHEmIaYcmWKXKjcoasge068loTZQEFe3YBmMQ-1ZfnqTxPUkymvQ3VutjR9D4iGl8phTEohrsB2dChJJDmHvBBagNuVG7THRT0PiExr0cDbZIRQs3x0LUtri-3bO2Iw](https://github.com/TheMrityunjayPathak/FeatureEngineering/assets/123563634/f8260e2f-55a2-42f3-be8a-1e1807eb9625)
 
-2️⃣ [Inter Quartile Range](https://www.kaggle.com/code/themrityunjaypathak/removing-outlier-from-data-using-iqr) 🪬
+[Inter Quartile Range](https://www.kaggle.com/code/themrityunjaypathak/removing-outlier-from-data-using-iqr)
 
 - In Descriptive Statistics, the Interquartile Range tells you the spread of the middle half of your distribution.
 
@@ -55,7 +51,7 @@ git clone https://github.com/TheMrityunjayPathak/FeatureEngineering.git
 
 ![New Project](https://github.com/TheMrityunjayPathak/FeatureEngineering/assets/123563634/20548ba7-4d26-4b88-965b-4af40e9a5ab6)
 
-3️⃣ [Z-Score](https://www.kaggle.com/code/themrityunjaypathak/removing-outlier-from-data-using-zscore) 💤
+[Z-Score](https://www.kaggle.com/code/themrityunjaypathak/removing-outlier-from-data-using-zscore)
 
 - Z-score is a statistical measurement that describes a value's relationship to the mean of a group of values.
 
@@ -76,7 +72,7 @@ where :
 
 ![images](https://github.com/TheMrityunjayPathak/FeatureEngineering/assets/123563634/41b2cc4e-dfa9-4cfd-a950-b59c3b3e612f)
 
-4️⃣ [Modified Z-Score](https://www.kaggle.com/code/themrityunjaypathak/removing-outlier-from-data-using-modified-zscore) 🔧
+[Modified Z-Score](https://www.kaggle.com/code/themrityunjaypathak/removing-outlier-from-data-using-modified-zscore)
 
 - A Modified Z-Score is more robust because it uses the median to calculate z-scores as opposed to the mean, which is known to be influenced by outliers.
 
@@ -92,7 +88,7 @@ where :
 
 ![download](https://github.com/TheMrityunjayPathak/FeatureEngineering/assets/123563634/c877fa09-b571-4a15-8e3f-16c08b728e2e)
 
-5️⃣ [Data Standardization](https://www.kaggle.com/code/themrityunjaypathak/data-standardization) 🌐
+[Data Standardization](https://www.kaggle.com/code/themrityunjaypathak/data-standardization)
 
 - Standardization is a scaling method where the values are centered around the mean with a unit standard deviation.
 
@@ -100,7 +96,7 @@ where :
 
 ![1_HW7-kYjj6RKwrO-5WTLkDA](https://github.com/TheMrityunjayPathak/FeatureEngineering/assets/123563634/98fff578-e63b-43b1-ad77-508c2aec8f35)
 
-6️⃣ [Handling Imbalance Dataset](https://www.kaggle.com/code/themrityunjaypathak/handling-imbalance-dataset) ⚖️
+[Handling Imbalance Dataset](https://www.kaggle.com/code/themrityunjaypathak/handling-imbalance-dataset)
 
 - Imbalanced data refers to those types of datasets where the target class has an uneven distribution of observations.
 

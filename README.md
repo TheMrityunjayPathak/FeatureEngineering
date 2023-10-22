@@ -103,3 +103,6 @@ where :
 - In an Imbalance Data one class label has a very high number of observations and the other has a very low number of observations.
 
 ![0_FeIp1t4uEcW5LmSM](https://github.com/TheMrityunjayPathak/FeatureEngineering/assets/123563634/7c226979-5f95-4371-9e67-53e619097837)
+
+| [Scroll to Top ⬆️](#feature-engineering) |
+|:---:|

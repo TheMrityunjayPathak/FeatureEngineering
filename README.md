@@ -49,7 +49,7 @@ git clone https://github.com/TheMrityunjayPathak/FeatureEngineering.git
 
 - Q1 is the value below which 25 percent of the distribution lies, while Q3 is the value below which 75 percent of the distribution lies.
 
-![New Project](https://github.com/TheMrityunjayPathak/FeatureEngineering/assets/123563634/20548ba7-4d26-4b88-965b-4af40e9a5ab6)
+![download](https://github.com/TheMrityunjayPathak/FeatureEngineering/assets/123563634/0932779c-e688-4db8-b983-1183dce7f01e)
 
 [Z-Score](https://www.kaggle.com/code/themrityunjaypathak/removing-outlier-from-data-using-zscore)
 

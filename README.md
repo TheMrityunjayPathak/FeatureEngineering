@@ -14,9 +14,7 @@
 
 - Feature engineering refers to the process of designing artificial features into an algorithm.
 
-- These artificial features are then used by that algorithm in order to improve its performance, or in other words reap better results.
-
-- Data scientists spend most of their time with data, and it becomes important to make models accurate.
+- These artificial features are then used by that algorithm in order to improve its performance.
 
 ## Getting Started
 

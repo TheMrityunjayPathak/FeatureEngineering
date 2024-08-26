@@ -16,14 +16,9 @@
 
 - These artificial features are then used by that algorithm in order to improve its performance.
 
-## Getting Started
+## Notebook List
 
-- Clone the repository to your local machine using the following command :
-```
-git clone https://github.com/TheMrityunjayPathak/FeatureEngineering.git
-```
-
-## Different Feature Engineering Techniques
+Here is a list of Jupyter Notebooks included in this repository :
 
 [Dummy Variable](https://www.kaggle.com/code/themrityunjaypathak/dummy-variable)
 
@@ -89,6 +84,37 @@ where :
 - Imbalanced data refers to those types of datasets where the target class has an uneven distribution of observations.
 
 - In an Imbalance Data one class label has a very high number of observations and the other has a very low number of observations.
+
+## Getting Started
+
+- You can clone this repository using the following command:
+  ```
+  git clone https://github.com/TheMrityunjayPathak/FeatureEngineering.git
+  ```
+
+- Install the Jupyter Notebook :
+   ```bash
+   pip install notebook
+   ```
+
+- Launch the Jupyter Notebook :
+   ```bash
+   jupyter notebook
+   ```
+
+- Open the desired notebook from the repository in your Jupyter environment and start learning!
+
+## Contributing
+
+- Contributions are Welcome! 
+
+- If you'd like to contribute to this repository, feel free to submit a pull request.
+
+## License
+
+- This repository is licensed under the [MIT License](LICENSE). 
+
+- You are free to use, modify and distribute the code in this repository.
 
 | [Scroll to Top ⬆️](#feature-engineering) |
 |:---:|

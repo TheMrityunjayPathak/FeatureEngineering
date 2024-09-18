@@ -28,7 +28,7 @@ Here is a list of Jupyter Notebooks included in this repository :
 
 - [Modified Z-Score](https://www.kaggle.com/code/themrityunjaypathak/removing-outlier-from-data-using-modified-zscore)
 
-- [Data Standardization](https://www.kaggle.com/code/themrityunjaypathak/data-standardization)
+- [Data Standardization](https://www.kaggle.com/code/themrityunjaypathak/data-standardization-using-standardscaler)
 
 - [Handling Imbalance Dataset](https://www.kaggle.com/code/themrityunjaypathak/handling-imbalance-dataset)
 

@@ -30,6 +30,8 @@ Here is a list of Jupyter Notebooks included in this repository :
 
 - [Data Standardization](https://www.kaggle.com/code/themrityunjaypathak/data-standardization-using-standardscaler)
 
+- [Data Normalization](https://www.kaggle.com/code/themrityunjaypathak/data-normalization-using-minmaxscaler)
+
 - [Handling Imbalance Dataset](https://www.kaggle.com/code/themrityunjaypathak/handling-imbalance-dataset)
 
 ## Getting Started

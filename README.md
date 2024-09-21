@@ -24,7 +24,7 @@ Here is a list of Jupyter Notebooks included in this repository :
 
 - [Data Normalization](https://www.kaggle.com/code/themrityunjaypathak/data-normalization-using-minmaxscaler)
 
-- [Encoding Categorical Data](https://www.kaggle.com/code/themrityunjaypathak/encoding-categorical-data/notebook)
+- [Encoding Categorical Data](https://www.kaggle.com/code/themrityunjaypathak/encoding-categorical-data)
 
 ## Getting Started
 

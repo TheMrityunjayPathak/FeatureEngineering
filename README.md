@@ -20,19 +20,11 @@
 
 Here is a list of Jupyter Notebooks included in this repository :
 
-- [Dummy Variable](https://www.kaggle.com/code/themrityunjaypathak/dummy-variable)
-
-- [Inter Quartile Range](https://www.kaggle.com/code/themrityunjaypathak/removing-outlier-from-data-using-iqr)
-
-- [Z-Score](https://www.kaggle.com/code/themrityunjaypathak/removing-outlier-from-data-using-zscore)
-
-- [Modified Z-Score](https://www.kaggle.com/code/themrityunjaypathak/removing-outlier-from-data-using-modified-zscore)
-
 - [Data Standardization](https://www.kaggle.com/code/themrityunjaypathak/data-standardization-using-standardscaler)
 
 - [Data Normalization](https://www.kaggle.com/code/themrityunjaypathak/data-normalization-using-minmaxscaler)
 
-- [Handling Imbalance Dataset](https://www.kaggle.com/code/themrityunjaypathak/handling-imbalance-dataset)
+- [Encoding Categorical Data]()
 
 ## Getting Started
 

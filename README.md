@@ -26,6 +26,10 @@ Here is a list of Jupyter Notebooks included in this repository :
 
 - [Encoding Categorical Data](https://www.kaggle.com/code/themrityunjaypathak/encoding-categorical-data)
 
+- [Sklearn ColumnTransformer](https://www.kaggle.com/code/themrityunjaypathak/sklearn-columntransformer)
+
+- [Sklearn Pipeline](https://www.kaggle.com/code/themrityunjaypathak/sklearn-pipeline)
+
 ## Getting Started
 
 - You can clone this repository using the following command:

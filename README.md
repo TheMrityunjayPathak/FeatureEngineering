@@ -28,6 +28,8 @@ Here is a list of Jupyter Notebooks included in this repository :
 
 - [Sklearn Pipeline](https://www.kaggle.com/code/themrityunjaypathak/sklearn-pipeline)
 
+- [Handling Mix Variables](https://www.kaggle.com/code/themrityunjaypathak/handling-mix-variables)
+
 ## Getting Started
 
 - You can clone this repository using the following command:

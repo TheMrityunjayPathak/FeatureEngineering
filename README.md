@@ -30,6 +30,8 @@ Here is a list of Jupyter Notebooks included in this repository :
 
 - [Handling Mix Variables](https://www.kaggle.com/code/themrityunjaypathak/handling-mix-variables)
 
+- [Missing Categorical Data](https://www.kaggle.com/code/themrityunjaypathak/missing-categorical-data)
+
 ## Getting Started
 
 - You can clone this repository using the following command:

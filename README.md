@@ -32,7 +32,9 @@ Here is a list of Jupyter Notebooks included in this repository :
 
 - [Missing Categorical Data](https://www.kaggle.com/code/themrityunjaypathak/missing-categorical-data)
 
-- [Missing Numerical Data](https://www.kaggle.com/code/themrityunjaypathak/missing-numerical-data)
+- [KNNImputer](https://www.kaggle.com/code/themrityunjaypathak/knn-imputer)
+
+- [SimpleImputer](https://www.kaggle.com/code/themrityunjaypathak/missing-numerical-data)
 
 ## Getting Started
 

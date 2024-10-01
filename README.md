@@ -18,23 +18,23 @@
 
 Here is a list of Jupyter Notebooks included in this repository :
 
-- [Data Standardization](https://www.kaggle.com/code/themrityunjaypathak/data-standardization-using-standardscaler)
+- Data Standardization
 
-- [Data Normalization](https://www.kaggle.com/code/themrityunjaypathak/data-normalization-using-minmaxscaler)
+- Data Normalization
 
-- [Encoding Categorical Data](https://www.kaggle.com/code/themrityunjaypathak/encoding-categorical-data)
+- Encoding Categorical Data
 
-- [Sklearn ColumnTransformer](https://www.kaggle.com/code/themrityunjaypathak/sklearn-columntransformer)
+- Sklearn ColumnTransformer
+  
+- Sklearn Pipeline
+  
+- Handling Mix Variables
 
-- [Sklearn Pipeline](https://www.kaggle.com/code/themrityunjaypathak/sklearn-pipeline)
+- Missing Categorical Data
 
-- [Handling Mix Variables](https://www.kaggle.com/code/themrityunjaypathak/handling-mix-variables)
+- KNNImputer
 
-- [Missing Categorical Data](https://www.kaggle.com/code/themrityunjaypathak/missing-categorical-data)
-
-- [KNNImputer](https://www.kaggle.com/code/themrityunjaypathak/knn-imputer)
-
-- [SimpleImputer](https://www.kaggle.com/code/themrityunjaypathak/missing-numerical-data)
+- SimpleImputer
 
 ## Getting Started
 

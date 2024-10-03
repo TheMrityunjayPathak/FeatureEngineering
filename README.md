@@ -42,6 +42,10 @@ Here is a list of Jupyter Notebooks included in this repository :
 
 - Outlier detection using Winsorization
 
+- Function Transformer
+
+- Power Transformer
+
 ## Getting Started
 
 - You can clone this repository using the following command:

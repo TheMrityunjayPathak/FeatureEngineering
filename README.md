@@ -36,6 +36,12 @@ Here is a list of Jupyter Notebooks included in this repository :
 
 - SimpleImputer
 
+- Outlier detection using IQR
+
+- Outlier detection using ZScore
+
+- Outlier detection using Winsorization
+
 ## Getting Started
 
 - You can clone this repository using the following command:

@@ -7,11 +7,13 @@
 
 - Understanding Features
   - Features are the input variables used by machine learning models to make predictions. Each feature represents a specific aspect of the data.
-  - Types of Features
-    - Numerical Features : Continuous values (e.g. height, weight) or discrete values (e.g. counts).
-    - Categorical Features : Non-numerical values that represent categories (e.g. color, brand).
-    - Ordinal Features : Categorical variables with a clear ordering (e.g. education level: high school < bachelor < master).
-    - Binary Features : Variables that can take on one of two possible values (e.g. yes/no, true/false).
+
+| Type of Feature | Detail |
+|:---|:---|
+| Numerical Features | Continuous values (e.g. height, weight) or discrete values (e.g. counts). |
+| Categorical Features | Non-numerical values that represent categories (e.g. color, brand).  |
+| Ordinal Features | Categorical variables with a clear ordering (e.g. education level: high school < bachelor < master). |
+| Binary Features | Variables that can take on one of two possible values (e.g. yes/no, true/false). |
 
 - Feature Representation
   - The way features are represented can greatly affect a model’s ability to learn. Different algorithms require different types of feature representations.

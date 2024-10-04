@@ -6,6 +6,7 @@
 ## Theoretical Foundations
 
 - Understanding Features
+  
   - Features are the input variables used by machine learning models to make predictions. Each feature represents a specific aspect of the data.
 
 | Type of Feature | Detail |

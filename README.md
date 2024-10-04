@@ -184,7 +184,7 @@ transformer = FunctionTransformer(func=custom_function)
 X_transformed = transformer.fit_transform(X)
 ```
 
-## Power Transformer
+### Power Transformer
 - The `PowerTransformer` can help stabilize variance and make the data more Gaussian-like.
 - This is useful for improving the performance of models that assume normally distributed data.
 

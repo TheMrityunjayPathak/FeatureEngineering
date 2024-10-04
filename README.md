@@ -5,9 +5,9 @@
 
 ## Theoretical Foundations
 
-- Understanding Features
+**Understanding Features**
   
-  - Features are the input variables used by machine learning models to make predictions. Each feature represents a specific aspect of the data.
+- Features are the input variables used by machine learning models to make predictions. Each feature represents a specific aspect of the data.
 
 | Type of Feature | Detail |
 |:---|:---|
@@ -16,19 +16,25 @@
 | Ordinal Features | Categorical variables with a clear ordering (e.g. education level: high school < bachelor < master). |
 | Binary Features | Variables that can take on one of two possible values (e.g. yes/no, true/false). |
 
-- Feature Representation
-  - The way features are represented can greatly affect a model’s ability to learn. Different algorithms require different types of feature representations.
-    - Linear Models : Perform well with linearly separable data, hence polynomial features or interaction terms may be necessary.
-    - Tree-Based Models : Naturally handle non-linear relationships but can benefit from well-defined feature engineering.
+**Feature Representation**
+  
+- The way features are represented can greatly affect a model’s ability to learn. Different algorithms require different types of feature representations.
+
+| Models | Detail |
+|:---|:---|
+| Linear Models | Perform well with linearly separable data, hence polynomial features or interaction terms may be necessary. |
+| Tree-Based Models | Naturally handle non-linear relationships but can benefit from well-defined feature engineering. |
       
-- Curse of Dimensionality
-  - As the number of features increases, the volume of the space increases leading to sparsity.
-  - In high-dimensional space, data points become less similar making it difficult for algorithms to generalize well.
-  - Effective feature engineering can mitigate this by reducing dimensionality.
+**Curse of Dimensionality**
+
+- As the number of features increases, the volume of the space increases leading to sparsity.
+- In high-dimensional space, data points become less similar making it difficult for algorithms to generalize well.
+- Effective feature engineering can mitigate this by reducing dimensionality.
  
-- Feature Importance
-  - Understanding which features contribute most to the model’s predictions can guide feature selection and engineering efforts.
-  - Techniques like feature importance scores from tree-based models or recursive feature elimination can aid this process.
+**Feature Importance**
+
+- Understanding which features contribute most to the model’s predictions can guide feature selection and engineering efforts.
+- Techniques like feature importance scores from tree-based models or recursive feature elimination can aid this process.
 
 ## Concepts Covered
 
@@ -157,10 +163,12 @@ outliers = (X < (Q1 - 1.5 * IQR)) | (X > (Q3 + 1.5 * IQR))
 
 ### Example
 ```python
-from scipy import stats
+X_mean = X.mean()
+X_std = X.std()
 
-z_scores = np.abs(stats.zscore(X))
-outliers = (z_scores > 3 & z_score < -3)
+X_Zscore = (X - X.mean())/X.std()
+
+outliers = (X_Zscore > 3) | (X_Zscore < -3)
 ```
 
 ### Using Winsorization
@@ -168,9 +176,10 @@ outliers = (z_scores > 3 & z_score < -3)
 
 ### Example
 ```python
-from scipy.stats import mstats
+upper_limit = np.percentile(X, 95)
+lower_limit = np.percentile(X, 5)
 
-X_winsorized = mstats.winsorize(X, limits=[0.05, 0.05])
+outliers = (X < lower_limit) | (X > upper_limit)
 ```
 
 ### Function Transformer

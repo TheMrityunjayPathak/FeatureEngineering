@@ -208,6 +208,28 @@ transformer = PowerTransformer()
 X_transformed = transformer.fit_transform(X)
 ```
 
+### Imbalance Data
+- Imbalanced data refers to a situation where the distribution of classes within a dataset is not uniform.
+- This is particularly common in classification problems where one class significantly outnumbers the other class.
+
+### Example
+```python
+# Under Sampling
+from imblearn.under_sampling import RandomUnderSampler
+rus = RandomUnderSampler()
+X_rus, y_rus = rus.fit_resample(X_train, y_train)
+
+# Over Sampling
+from imblearn.over_sampling import RandomOverSampler
+ros = RandomOverSampler()
+X_ros, y_ros = ros.fit_resample(X_train, y_train)
+
+# Synthetic Minority Over-sampling Technique
+from imblearn.over_sampling import SMOTE
+smote = SMOTE()
+X_smote, y_smote = smote.fit_resample(X_train, y_train)
+```
+
 ## Getting Started
 
 - You can clone this repository using the following command:

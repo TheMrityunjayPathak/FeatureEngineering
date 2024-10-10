@@ -261,5 +261,4 @@ X_smote, y_smote = smote.fit_resample(X_train, y_train)
 
 - You are free to use, modify and distribute the code in this repository.
 
-| [Scroll to Top ⬆️](#feature-engineering) |
-|:---:|
+**[`^        Scroll to Top       ^`](#feature-engineering)**

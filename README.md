@@ -230,6 +230,25 @@ smote = SMOTE()
 X_smote, y_smote = smote.fit_resample(X_train, y_train)
 ```
 
+### Principal Component Analysis
+- Principal component analysis (PCA) reduces the number of dimensions in large datasets to principal components that retain most of the original information.
+- It does this by transforming potentially correlated variables into a smaller set of variables called principal components.
+
+### Example
+```python
+# Importing PCA
+from sklearn.decomposition import PCA
+
+# Creating PCA Object for 2 Features
+pca = PCA(n_components=2)
+
+# Fit and Transform on Training Data
+X_train_pca = pca.fit_transform(X_train_scaled)
+
+# Transforming Testing Data
+X_test_pca = pca.transform(X_test_scaled)
+```
+
 ## Getting Started
 
 - You can clone this repository using the following command:

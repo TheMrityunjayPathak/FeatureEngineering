@@ -11,10 +11,10 @@
 
 | Type of Feature | Detail |
 |:---|:---|
-| Numerical Features | Continuous values (e.g. height, weight) or discrete values (e.g. counts). |
-| Categorical Features | Non-numerical values that represent categories (e.g. color, brand).  |
-| Ordinal Features | Categorical variables with a clear ordering (e.g. education level: high school < bachelor < master). |
-| Binary Features | Variables that can take on one of two possible values (e.g. yes/no, true/false). |
+| Numerical | Continuous values (e.g. height, weight) or discrete values (e.g. counts). |
+| Categorical | Non-numerical values that represent categories (e.g. color, brand).  |
+| Ordinal | Categorical variables with a clear ordering (e.g. high school < bachelor < master). |
+| Binary | Variables that can take on one of two possible values (e.g. yes/no, true/false). |
 
 **Feature Representation**
   

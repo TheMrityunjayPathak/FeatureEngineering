@@ -52,6 +52,8 @@ scaler = StandardScaler()
 X_standardized = scaler.fit_transform(X)
 ```
 
+---
+
 ### Data Normalization
 - Normalization scales the features to a range between 0 and 1.
 - This technique is beneficial for algorithms that rely on distance measurements, like k-NN.
@@ -64,6 +66,8 @@ scaler = MinMaxScaler()
 X_normalized = scaler.fit_transform(X)
 ```
 
+---
+
 ### Encoding Categorical Data
 - Categorical data needs to be converted into numerical format for most machine learning algorithms.
 - Common techniques include one-hot encoding and label encoding.
@@ -75,6 +79,8 @@ from sklearn.preprocessing import OneHotEncoder
 encoder = OneHotEncoder()
 X_encoded = encoder.fit_transform(X_categorical).toarray()
 ```
+
+---
 
 ### Sklearn ColumnTransformer
 - The `ColumnTransformer` allows you to apply different preprocessing steps to different columns of your dataset in a concise way.
@@ -94,6 +100,8 @@ preprocessor = ColumnTransformer(
 X_transformed = preprocessor.fit_transform(X)
 ```
 
+---
+
 ### Sklearn Pipeline
 - The `Pipeline` class enables you to streamline the preprocessing and modeling steps into a single object, ensuring that all steps are applied consistently.
 
@@ -109,9 +117,13 @@ pipeline = Pipeline(steps=[
 pipeline.fit(X_train, y_train)
 ```
 
+---
+
 ### Handling Mixed Variables
 - When your dataset contains both numerical and categorical variables, it's important to apply appropriate preprocessing to each type.
 - Use `ColumnTransformer` as mentioned above for effective handling.
+
+---
 
 ### Missing Categorical Data
 - Handling missing data in categorical variables can be done by replacing them with the most frequent category or using advanced techniques like KNN imputation.
@@ -124,6 +136,8 @@ imputer = SimpleImputer(strategy='most_frequent')
 X_imputed = imputer.fit_transform(X_categorical)
 ```
 
+---
+
 ### KNNImputer
 - The `KNNImputer` uses the k-nearest neighbors algorithm to impute missing values, considering the values of similar data points.
 
@@ -135,6 +149,8 @@ imputer = KNNImputer(n_neighbors=5)
 X_imputed = imputer.fit_transform(X)
 ```
 
+---
+
 ### SimpleImputer
 - The `SimpleImputer` is a straightforward way to handle missing values using different strategies (mean, median, most frequent, constant).
 
@@ -145,6 +161,8 @@ from sklearn.impute import SimpleImputer
 imputer = SimpleImputer(strategy='mean')
 X_imputed = imputer.fit_transform(X_numeric)
 ```
+
+---
 
 ### Outlier Detection
 - Outliers can significantly impact the performance of machine learning models. Several techniques can be employed for outlier detection.
@@ -184,6 +202,8 @@ lower_limit = np.percentile(X, 5)
 outliers = (X < lower_limit) | (X > upper_limit)
 ```
 
+---
+
 ### Function Transformer
 - The `FunctionTransformer` allows you to apply any custom function to your data as part of a pipeline.
 
@@ -198,6 +218,8 @@ transformer = FunctionTransformer(func=custom_function)
 X_transformed = transformer.fit_transform(X)
 ```
 
+---
+
 ### Power Transformer
 - The `PowerTransformer` can help stabilize variance and make the data more Gaussian-like.
 - This is useful for improving the performance of models that assume normally distributed data.
@@ -209,6 +231,8 @@ from sklearn.preprocessing import PowerTransformer
 transformer = PowerTransformer()
 X_transformed = transformer.fit_transform(X)
 ```
+
+---
 
 ### Imbalance Data
 - Imbalanced data refers to a situation where the distribution of classes within a dataset is not uniform.
@@ -231,6 +255,8 @@ from imblearn.over_sampling import SMOTE
 smote = SMOTE()
 X_smote, y_smote = smote.fit_resample(X_train, y_train)
 ```
+
+---
 
 ### Principal Component Analysis
 - Principal component analysis (PCA) reduces the number of dimensions in large datasets to principal components that retain most of the original information.

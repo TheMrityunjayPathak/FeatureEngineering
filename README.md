@@ -24,8 +24,8 @@
 
 | Models | Detail |
 |:---|:---|
-| Linear | Perform well with linearly separable data, hence polynomial features or interaction terms may be necessary. |
-| Tree-Based | Naturally handle non-linear relationships but can benefit from well-defined feature engineering. |
+| Linear | Perform well with linearly separable data. |
+| Tree | Naturally handle non-linear relationships but can benefit from well-defined feature engineering. |
       
 **Curse of Dimensionality**
 

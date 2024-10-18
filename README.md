@@ -7,7 +7,8 @@
 
 **Understanding Features**
   
-- Features are the input variables used by machine learning models to make predictions. Each feature represents a specific aspect of the data.
+- Features are the input variables used by machine learning models to make predictions.
+- Each feature represents a specific aspect of the data.
 
 | Type of Feature | Detail |
 |:---|:---|
@@ -18,12 +19,13 @@
 
 **Feature Representation**
   
-- The way features are represented can greatly affect a model’s ability to learn. Different algorithms require different types of feature representations.
+- The way features are represented can greatly affect a model’s ability to learn.
+- Different algorithms require different types of feature representations.
 
 | Models | Detail |
 |:---|:---|
-| Linear Models | Perform well with linearly separable data, hence polynomial features or interaction terms may be necessary. |
-| Tree-Based Models | Naturally handle non-linear relationships but can benefit from well-defined feature engineering. |
+| Linear | Perform well with linearly separable data, hence polynomial features or interaction terms may be necessary. |
+| Tree-Based | Naturally handle non-linear relationships but can benefit from well-defined feature engineering. |
       
 **Curse of Dimensionality**
 
